@@ -140,7 +140,7 @@ export function ToolWorkspace({
             />
           )}
           {output && !editMode && (
-            <div className="prose prose-sm max-w-none rounded-lg border bg-muted/30 p-4 dark:prose-invert">
+            <div className="markdown rounded-lg border bg-muted/30 p-4 text-sm leading-relaxed">
               <ReactMarkdown>{output}</ReactMarkdown>
             </div>
           )}
